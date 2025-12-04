@@ -1,0 +1,29 @@
+[
+  {
+    "nom_etablissement": "Ecole maternelle publique Charles Isautier",
+    "adresse_1": "45 rue de l'école",
+    "adresse_2": "Bâtiment B",
+    "adresse_3": "Étage 2",
+    "code_postal": "97430",
+    "nom_commune": "Le Tampon",
+    "identifiant_de_l_etablissement": "9741874U"
+  },
+  {
+    "nom_etablissement": "Ecole élémentaire publique Raymond Mondon",
+    "adresse_1": "78 rue de l'école",
+    "adresse_2": "Bâtiment C",
+    "adresse_3": "Étage 3",
+    "code_postal": "97400",
+    "nom_commune": "Saint-Denis",
+    "identifiant_de_l_etablissement": "9740001H"
+  },
+  {
+    "nom_etablissement": "Ecole primaire privée Saint Michel",
+    "adresse_1": "12 rue de l'école",
+    "adresse_2": "Bâtiment D",
+    "adresse_3": "Étage 4",
+    "code_postal": "97410",
+    "nom_commune": "Saint-Pierre",
+    "identifiant_de_l_etablissement": "9741082K"
+  }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "60a3b2c5f5e8d22e4b1f1c01",
+        "code": "0-3",
+        "nom": "0-3 ans",
+        "life_cycle": 0
+    },
+    {
+        "_id": "60a3b2c5f5e8d22e4b1f1c02",
+        "code": "3-6",
+        "nom": "3-6 ans",
+        "life_cycle": 0
+    },
+    {
+        "_id": "60a3b2c5f5e8d22e4b1f1c03",
+        "code": "6-8",
+        "nom": "6-8 ans",
+        "life_cycle": 0
+    },
+    {
+        "_id": "60a3b2c5f5e8d22e4b1f1c04",
+        "code": "8-10",
+        "nom": "8-10 ans",
+        "life_cycle": 0
+    },
+    {
+        "_id": "60a3b2c5f5e8d22e4b1f1c05",
+        "code": "10-12",
+        "nom": "10-12 ans",
+        "life_cycle": 0
+    },
+    {
+        "_id": "60a3b2c5f5e8d22e4b1f1c06",
+        "code": "12-15",
+        "nom": "12-15 ans",
+        "life_cycle": 0
+    },
+    {
+        "_id": "60a3b2c5f5e8d22e4b1f1c07",
+        "code": "15-18",
+        "nom": "15-18 ans",
+        "life_cycle": 0
+    },
+    {
+        "_id": "60a3b2c5f5e8d22e4b1f1c08",
+        "code": "ADULTE",
+        "nom": "Adultes",
+        "life_cycle": 0
+    }
+]

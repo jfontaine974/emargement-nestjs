@@ -1,0 +1,57 @@
+[
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1a01",
+        "nom": "Semaine scolaire",
+        "code": "SEMAINE_SCOLAIRE",
+        "type": "HEBDOMADAIRE",
+        "ordre": 1,
+        "type_accueil_id": "60a6d2c4f2a7c1001fcf1501",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T10:30:00.000Z",
+        "updatedAt": "2023-01-15T10:30:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1a02",
+        "nom": "Vacances d'été",
+        "code": "VACANCES_ETE",
+        "type": "VACANCES",
+        "ordre": 2,
+        "type_accueil_id": "60a6d2c4f2a7c1001fcf1501",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T10:31:00.000Z",
+        "updatedAt": "2023-01-15T10:31:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1a03",
+        "nom": "Vacances de Noël",
+        "code": "VACANCES_NOEL",
+        "type": "VACANCES",
+        "ordre": 3,
+        "type_accueil_id": "60a6d2c4f2a7c1001fcf1502",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T10:32:00.000Z",
+        "updatedAt": "2023-01-15T10:32:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1a04",
+        "nom": "Journée spéciale",
+        "code": "JOURNEE_SPECIALE",
+        "type": "AUTRE",
+        "ordre": 4,
+        "type_accueil_id": "60a6d2c4f2a7c1001fcf1503",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T10:33:00.000Z",
+        "updatedAt": "2023-01-15T10:33:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1a05",
+        "nom": "Période archivée",
+        "code": "PERIODE_ARCHIVEE",
+        "type": "AUTRE",
+        "ordre": 5,
+        "type_accueil_id": "60a6d2c4f2a7c1001fcf1503",
+        "life_cycle": 1,
+        "createdAt": "2023-01-15T10:34:00.000Z",
+        "updatedAt": "2023-01-15T10:34:00.000Z"
+    }
+]

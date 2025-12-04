@@ -1,0 +1,68 @@
+[
+	{
+		"_id": "60f17d9415acbe1f2701a001",
+		"adresse": [
+			"55 bis rue Maréchal Jäger 97410 Saint-Pierre"
+		],
+		"life_cycle": 9,
+		"nom": "Boyer",
+		"prenom": "Christine",
+		"phones": {
+			"principal": "0692141516"
+		},
+		"email": "boyer.christine@gmail.com",
+		"remarque": "remarrefqs",
+		"profession": "prof",
+		"updatedAt": "2021-05-20T23:53:51.418Z"
+	},
+	{
+		"_id": "60f19e9b15acbe1f2701b002",
+		"adresse": [
+			"55 rue Leclercl 97410 Saint Pierre"
+		],
+		"life_cycle": 0,
+		"nom": "Prigent",
+		"prenom": "Phanie",
+		"phones": {
+			"principal": "0262258989"
+		},
+		"remarque": "remarrefqs",
+		"profession": "prof",
+		"email": "test@gmail.com",
+		"updatedAt": "2021-05-17T23:53:51.418Z"
+	},
+	{
+		"_id": "60f265e515acbe1f2701b003",
+		"adresse": [
+			"9 bis chemin des Zazalées 97410 Terre Sainte Saint-Pierre"
+		],
+		"life_cycle": 0,
+		"nom": "Hoarau",
+		"prenom": "Antoine",
+		"phones": {
+			"principal": "0693562526"
+		},
+		"remarque": "remarrefqs",
+		"profession": "prof",
+		"email": "antoine.haorau@gmail.com",
+		"updatedAt": "2021-05-18T23:53:51.418Z"
+	},
+	{
+		"_id": "60f688106fcecbb9371a9004",
+		"adresse": [
+			"24 Rue de la Plage",
+			"Moufia",
+			"97400 Saint-Denis"
+		],
+		"life_cycle": 0,
+		"nom": "PAYET",
+		"prenom": "Yves",
+		"phones": {
+			"principal": "0692 00 00 00"
+		},
+		"remarque": "remarrefqs",
+		"profession": "prof",
+		"email": "",
+		"updatedAt": "2021-05-15T23:53:51.418Z"
+	}
+]

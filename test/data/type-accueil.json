@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1501",
+        "nom": "Périscolaire",
+        "code": "PERISCOLAIRE",
+        "life_cycle": 0,
+        "hasTrancheAge": true,
+        "createdAt": "2023-01-15T09:30:00.000Z",
+        "updatedAt": "2023-01-15T09:30:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1502",
+        "nom": "Extrascolaire",
+        "code": "EXTRASCOLAIRE",
+        "hasTrancheAge": true,
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T09:31:00.000Z",
+        "updatedAt": "2023-01-15T09:31:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1503",
+        "nom": "Centre de loisir",
+        "hasTrancheAge": true,
+        "code": "CDL",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T09:32:00.000Z",
+        "updatedAt": "2023-01-15T09:32:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf1504",
+        "nom": "Type d'accueil archivé",
+        "code": "ARCHIVE",
+        "hasTrancheAge": false,
+        "life_cycle": 1,
+        "createdAt": "2023-01-15T09:33:00.000Z",
+        "updatedAt": "2023-01-15T09:33:00.000Z"
+    }
+]

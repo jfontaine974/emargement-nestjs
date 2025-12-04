@@ -1,0 +1,28 @@
+import { Module, MiddlewareConsumer, NestModule, RequestMethod } from '@nestjs/common';
+import { ConfigModule } from './config/config.module';
+import { SharedModule } from './shared/shared.module';
+import { TenantExtractionMiddleware } from './shared/tenant/tenant-extraction.middleware';
+import { AppController } from './app.controller';
+import { AppService } from './app.service';
+import { UsersModule } from './modules/users/users.module';
+import { ImplantationsModule } from './modules/implantations/implantations.module';
+import { TypeAccueilModule } from './modules/type-accueil/type-accueil.module';
+
+@Module({
+  imports: [ConfigModule, SharedModule, UsersModule, ImplantationsModule, TypeAccueilModule],
+  controllers: [AppController],
+  providers: [AppService],
+})
+export class AppModule implements NestModule {
+  configure(consumer: MiddlewareConsumer) {
+    // Appliquer le middleware tenant a toutes les routes sauf health check
+    consumer
+      .apply(TenantExtractionMiddleware)
+      .exclude(
+        { path: 'health', method: RequestMethod.GET },
+        { path: 'api-docs', method: RequestMethod.ALL },
+        { path: 'api-docs/(.*)', method: RequestMethod.ALL },
+      )
+      .forRoutes('*');
+  }
+}

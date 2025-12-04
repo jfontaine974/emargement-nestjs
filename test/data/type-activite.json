@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "60a6d2c4f2a7c1001fcf2a01",
+        "nom": "Sportive",
+        "code": "SPORT",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T11:30:00.000Z",
+        "updatedAt": "2023-01-15T11:30:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf2a02",
+        "nom": "Culturelle",
+        "code": "CULTURE",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T11:31:00.000Z",
+        "updatedAt": "2023-01-15T11:31:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf2a03",
+        "nom": "Éducative",
+        "code": "EDUCATION",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T11:32:00.000Z",
+        "updatedAt": "2023-01-15T11:32:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf2a04",
+        "nom": "Artistique",
+        "code": "ART",
+        "life_cycle": 0,
+        "createdAt": "2023-01-15T11:33:00.000Z",
+        "updatedAt": "2023-01-15T11:33:00.000Z"
+    },
+    {
+        "_id": "60a6d2c4f2a7c1001fcf2a05",
+        "nom": "Activité archivée",
+        "code": "ARCHIVE",
+        "life_cycle": 1,
+        "createdAt": "2023-01-15T11:34:00.000Z",
+        "updatedAt": "2023-01-15T11:34:00.000Z"
+    }
+]

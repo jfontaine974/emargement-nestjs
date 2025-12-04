@@ -1,0 +1,27 @@
+[
+	{
+		"id_enfant":"60cbec09a4c2444074340001",
+		"id_referent":"60f17d9415acbe1f2701a001",
+		"life_cycle":0,
+		"updatedAt":"2021-05-17T23:53:51.418Z"
+	},
+	{
+		"id_enfant":"60cbec09a4c2444074340001",
+		"id_referent":"60f19e9b15acbe1f2701b002",
+		"life_cycle":0,
+		"updatedAt":"2021-05-18T23:53:51.418Z"
+		
+	},
+	{
+		"id_enfant":"60cbec09a4c2444074340001",
+		"id_referent":"60f265e515acbe1f2701b003",
+		"life_cycle":0,
+		"updatedAt":"2021-05-15T23:53:51.418Z"
+	},
+	{
+		"id_enfant":"60cbec09a4c2444074340001",
+		"id_referent":"60f688106fcecbb9371a9004",
+		"life_cycle":9,
+		"updatedAt":"2021-05-20T23:53:51.418Z"
+	}
+]

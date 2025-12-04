@@ -1,0 +1,26 @@
+[
+	{
+		"id_enfant":"60cbec09a4c2444074340001",
+		"id_fratrie":"60cbec09a4c2444074340002",
+		"life_cycle":0,
+		"updatedAt":"2021-05-17T23:53:51.418Z"
+	},
+	{
+		"id_enfant":"60cbec09a4c2444074340001",
+		"id_fratrie":"60cbec09a4c2444074340003",
+		"life_cycle":0,
+		"updatedAt":"2021-05-18T23:53:51.418Z"
+	},
+	{
+		"id_enfant":"60cbec09a4c2444074340001",
+		"id_fratrie":"60cbec09a4c2444074340004",
+		"life_cycle":0,
+		"updatedAt":"2021-05-16T23:53:51.418Z"
+	},
+	{
+		"id_enfant":"60cbec09a4c2444074340001",
+		"id_fratrie":"60cbec09a4c2444074340005",
+		"life_cycle":9,
+		"updatedAt":"2021-05-20T23:53:51.418Z"
+	}
+]

@@ -1,0 +1,57 @@
+[
+	{
+		"_id": "6114a4dc557e9ab41c71e005",
+		"file": "file05.png",
+		"hash": "hash5",
+		"jour": "20210812",
+		"annee": 2021,
+		"mois": 8,
+		"heure": "1030",
+		"life_cycle": 0,
+		"user_id": "user_id_1"
+	},
+	{
+		"_id": "6114a4dc557e9ab41c71e001",
+		"file": "file01.png",
+		"hash": "349bf8922e37af859b53e36901173707e8bbb15e",
+		"jour": "20210812",
+		"user_id": "user_id_1",
+		"annee": 2021,
+		"mois": 8,
+		"heure": "0830",
+		"life_cycle": 0
+	},
+	{
+		"_id": "6114a4dc557e9ab41c71e002",
+		"file": "file02.png",
+		"hash": "c93a7263e5860317fbdf03ba507bba7e6856cff1",
+		"jour": "20210812",
+		"user_id": "user_id_2",
+		"annee": 2021,
+		"mois": 8,
+		"heure": "0953",
+		"life_cycle": 0
+	},
+	{
+		"_id": "6114a4dc557e9ab41c71e003",
+		"file": "file03.png",
+		"hash": "hash3",
+		"jour": "20210812",
+		"user_id": "user_id_3",
+		"annee": 2021,
+		"mois": 8,
+		"heure": "1420",
+		"life_cycle": 9
+	},
+	{
+		"_id": "6114a4dc557e9ab41c71e004",
+		"file": "file04.png",
+		"hash": "hash4",
+		"jour": "20210813",
+		"annee": 2021,
+		"user_id": "user_id_4",
+		"mois": 8,
+		"heure": "0953",
+		"life_cycle": 0
+	}
+] 

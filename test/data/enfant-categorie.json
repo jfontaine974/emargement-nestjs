@@ -1,0 +1,32 @@
+[
+    {
+        "id_enfant": "60cbec09a4c2444074340004",
+        "id_categorie": "70cbec09a4c2444074340001",
+        "life_cycle": 0,
+        "updatedAt": "2021-05-18T23:53:51.418Z"
+    },
+    {
+        "id_enfant": "60cbec09a4c2444074340001",
+        "id_categorie": "70cbec09a4c2444074340001",
+        "life_cycle": 0,
+        "updatedAt": "2021-05-18T23:53:51.418Z"
+    },
+    {
+        "id_enfant": "60cbec09a4c2444074340001",
+        "id_categorie": "70cbec09a4c2444074340003",
+        "updatedAt": "2021-05-18T23:53:51.418Z",
+        "life_cycle": 0
+    },
+    {
+        "id_enfant": "60cbec09a4c2444074340001",
+        "id_categorie": "70cbec09a4c2444074340004",
+        "updatedAt": "2021-05-15T23:53:51.418Z",
+        "life_cycle": 0
+    },
+    {
+        "id_enfant": "60cbec09a4c2444074340001",
+        "id_categorie": "70cbec09a4c2444074340004",
+        "updatedAt": "2021-05-18T23:53:51.418Z",
+        "life_cycle": 9
+    }
+]

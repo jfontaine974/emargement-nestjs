@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "61c5e209a4c2444074340001",
+    "nom": "Site Saint-Denis",
+    "alias": "STDEN",
+    "adresse": "11 rue de la République, 97400 Saint-Denis",
+    "remarque": "Accessible par l'entrée principale",
+    "ecole": {
+      "nom_etablissement": "Ecole élémentaire publique Raymond Mondon",
+      "adresse_1": "11 rue de la République",
+      "adresse_2": "Bâtiment A",
+      "adresse_3": "Étage 1",
+      "code_postal": "97400",
+      "nom_commune": "Saint-Denis",
+      "identifiant_de_l_etablissement": "9740001H"
+    },
+    "life_cycle": 0,
+    "createdAt": "2021-06-17T04:26:17.975Z",
+    "updatedAt": "2021-06-17T04:26:17.975Z"
+  },
+  {
+    "_id": "61c5e209a4c2444074340002",
+    "nom": "Site Saint-Pierre",
+    "alias": "STPER",
+    "adresse": "45 rue du Lagon, 97410 Saint-Pierre",
+    "remarque": "Deuxième étage du bâtiment",
+    "ecole": {
+      "nom_etablissement": "Ecole maternelle publique Les Badamiers",
+      "adresse_1": "45 rue du Lagon",
+      "adresse_2": "Bâtiment B",
+      "adresse_3": "Étage 2",
+      "code_postal": "97410",
+      "nom_commune": "Saint-Pierre",
+      "identifiant_de_l_etablissement": "9740057U"
+    },
+    "life_cycle": 0,
+    "createdAt": "2021-06-18T03:15:27.321Z",
+    "updatedAt": "2021-06-18T03:15:27.321Z"
+  }
+]

@@ -1,0 +1,133 @@
+[
+	{
+		"_id":"60cbec09a4c2444074340001",
+		"nom":"John",
+		"prenom":"Gut",
+		"date_naissance":"1901-01-01",
+		"adresse": ["ad1","ad2","ad3","ad4"],
+		"medecin": { "nom":"dr" , "phone":"0692123456"},
+		"vaccins": { 
+			"vaccin1":"val",
+			"vaccin2":null
+		 },
+		"maladies": { 
+			"maladie1":true,
+			"maladie2":false
+		 },
+		"allAsthme": "blabla",
+		"allAlimentaire": "topaz",
+		"allMedicament": "dsqdsqsd",
+		"allAutre": "dqsds",
+		"ecole": "ecoleName",
+		"diffSante": "diffSante",
+		"recomParent": "blabla",
+		"autorSortie": true,
+		"autorPhoto": false,
+		"mouilleLit": true,
+		"regle": true,
+		"handicap": false,
+		"handicapInfo": "info handicap",
+		"life_cycle":0,
+		"updatedAt":"2021-05-17T23:53:51.418Z",
+		"createdAt":"2021-05-17T23:53:51.418Z"
+	},
+	{
+		"_id":"60cbec09a4c2444074340002",
+		"nom":"John2",
+		"prenom":"Gut2",
+		"date_naissance":"1901-01-02",
+		"adresse": ["ad1","ad2","ad3","ad4"],
+		"medecin": { "nom":"dr2" , "phone":"069215555"},
+		"vaccins": { 
+			"vaccin1":"val",
+			"vaccin2":"val2",
+			"vaccin3":"val3"
+		 },
+		"maladies": { 
+			"maladie1":true,
+			"maladie2":false,
+			"maladie3":true
+		 },
+		"allAsthme": "blabla",
+		"allAlimentaire": "topaz",
+		"allMedicament": "dsqdsqsd",
+		"allAutre": "dqsds",
+		"ecole": "ecoleName",
+		"diffSante": "diffSante",
+		"recomParent": "blabla",
+		"autorSortie": true,
+		"autorPhoto": false,
+		"mouilleLit": true,
+		"regle": true,
+		"handicap": false,
+		"handicapInfo": "info handicap",
+		"life_cycle":0,
+		"updatedAt":"2021-05-18T23:53:51.418Z",
+		"createdAt":"2021-05-18T23:53:51.418Z"
+	},
+	{
+		"_id":"60cbec09a4c2444074340003",
+		"nom":"John3",
+		"prenom":"Gut3",
+		"date_naissance":"1901-01-03",
+		"adresse": ["ad1","ad2","ad3","ad4"],
+		"medecin": { "nom":"dr" , "phone":"0692123456"},
+		"vaccins": { 
+			"vaccin1":"val",
+			"vaccin2":null
+		 },
+		"maladies": { 
+			"maladie1":true,
+			"maladie2":false
+		 },
+		"allAsthme": "blabla",
+		"allAlimentaire": "topaz",
+		"allMedicament": "dsqdsqsd",
+		"allAutre": "dqsds",
+		"ecole": "ecoleName",
+		"diffSante": "diffSante",
+		"recomParent": "blabla",
+		"autorSortie": true,
+		"autorPhoto": false,
+		"mouilleLit": true,
+		"regle": true,
+		"handicap": false,
+		"handicapInfo": "info handicap",
+		"life_cycle":0,
+		"updatedAt":"2021-05-16T23:53:51.418Z",
+		"createdAt":"2021-05-16T23:53:51.418Z"
+	},
+	{
+		"_id":"60cbec09a4c2444074340004",
+		"nom":"John4",
+		"prenom":"Gut4",
+		"date_naissance":"1901-01-04",
+		"adresse": ["ad1","ad2","ad3","ad4","ad5"],
+		"medecin": { "nom":"dr" , "phone":"0692123456"},
+		"vaccins": { 
+			"vaccin1":"val",
+			"vaccin2":null
+		 },
+		"maladies": { 
+			"maladie1":false,
+			"maladie2":false
+		 },
+		"allAsthme": "blabla",
+		"allAlimentaire": "topaz",
+		"allMedicament": "dsqdsqsd",
+		"allAutre": "dqsds",
+		"ecole": "ecoleName",
+		"diffSante": "diffSante",
+		"recomParent": "blabla",
+		"autorSortie": true,
+		"autorPhoto": false,
+		"mouilleLit": true,
+		"regle": true,
+		"handicap": false,
+		"handicapInfo": "info handicap",
+		"life_cycle":9,
+		"updatedAt":"2021-05-20T23:53:51.418Z",
+		"createdAt":"2021-05-20T23:53:51.418Z"
+	}
+]
+
