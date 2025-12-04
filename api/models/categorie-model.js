@@ -2,33 +2,60 @@
 const mongoose = require('mongoose');
 
 const CategorieSchema = mongoose.Schema({
-    nom: { type: String, required: true },
-    nom_interne: { type: String },
-    parent_id: { type: String, default: '0' },
-    implantation_id: { type: String },
-    debutArrivee: { type: String },
-    debutDepart: { type: String },
-    debutJournee: { type: String },
-    finArrivee: { type: String },
-    finDepart: { type: String },
-    finJournee: { type: String },
-    isArrivee: { type: Boolean, default: false },
-    isDepart: { type: Boolean, default: false },
-    isJournee: { type: Boolean, default: false },
-    isDeleted: { type: Boolean, default: false },
-    isTaux: { type: Boolean, default: false },
-    taux: { type: Number, default: 0 },
-    tranche: { type: Number, default: 60 },
-    __user: { type: String },
-    life_cycle: { type: Number, default: 0 },
-}, { strict: "throw", timestamps: true });
+  nom: { type: String, required: true },
+  isJournee: { type: Boolean, default: null },
+  debutJournee: { type: String, default: null },
+  finJournee: { type: String, default: null },
+  isArrivee: { type: Boolean, default: null },
+  debutArrivee: { type: String, default: null },
+  finArrivee: { type: String, default: null },
+  isDepart: { type: Boolean, default: null },
+  debutDepart: { type: String, default: null },
+  finDepart: { type: String, default: null },
+  parent_id: { type: String, default: '0' },
+  isTaux: { type: Boolean, default: false },
+  taux: { type: Number, default: 0 },
+  tranche: { type: Number, default: 60 },
+  archivedBatchId: { type: String, default: null },
+  type_activite_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'TypeActivite',
+    required: false,
+  },
+  type_accueil_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'TypeAccueil',
+    required: false,
+  },
+  periode_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Periode',
+    required: false,
+  },
+  tranche_age_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'TrancheAge',
+    required: false,
+  },
+  implantation_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Implantation',
+    required: false,
+  },
+  __user: { type: String },
+  life_cycle: { type: Number, default: 0 },
+  isDeleted: { type: Boolean, default: false },
+}, { timestamps: true, collection: 'categories' });
 
-CategorieSchema.methods.view = function() {
-    var cat = this.toObject();
-    delete cat.__v;
-    delete cat.__user;
-    delete cat.createdAt;
-    return cat;
+CategorieSchema.query.notDeleted = function() {
+  return this.where({ $or: [{ isDeleted: false }, { isDeleted: { $exists: false } }] });
 };
 
-module.exports = mongoose.model('Categorie', CategorieSchema);
+CategorieSchema.methods.view = function() {
+  const categorie = this.toObject();
+  delete categorie.__v;
+  delete categorie.__user;
+  return categorie;
+};
+
+module.exports = mongoose.models.Categorie || mongoose.model('Categorie', CategorieSchema);
