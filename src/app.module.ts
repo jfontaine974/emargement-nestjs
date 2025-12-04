@@ -8,9 +8,10 @@ import { UsersModule } from './modules/users/users.module';
 import { ImplantationsModule } from './modules/implantations/implantations.module';
 import { TypeAccueilModule } from './modules/type-accueil/type-accueil.module';
 import { TypeActiviteModule } from './modules/type-activite/type-activite.module';
+import { TrancheAgeModule } from './modules/tranche-age/tranche-age.module';
 
 @Module({
-  imports: [ConfigModule, SharedModule, UsersModule, ImplantationsModule, TypeAccueilModule, TypeActiviteModule],
+  imports: [ConfigModule, SharedModule, UsersModule, ImplantationsModule, TypeAccueilModule, TypeActiviteModule, TrancheAgeModule],
   controllers: [AppController],
   providers: [AppService],
 })
