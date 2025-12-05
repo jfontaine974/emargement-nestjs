@@ -14,24 +14,18 @@ const ReferentSchema = mongoose.Schema({
   life_cycle: { type: Number, default: 0 },
 }, { timestamps: true, collection: 'referents' });
 
-ReferentSchema.methods.view = function() {
-  const referent = this.toObject();
-
-  // Synchroniser phone avec phones.principal
+ReferentSchema.methods.view = function () {
+  var referent = this.toObject()
   if (referent.phone) {
-    if (!referent.phones) {
-      referent.phones = {};
-    }
-    // Si phones.principal n'existe pas, mettre phone comme principal
-    if (!referent.phones.principal) {
-      referent.phones['principal'] = referent.phone;
-    }
+    if (!referent.phones)
+      referent.phones = {}
+    if (Object.values(referent.phones).filter(e => e == referent.phone) == 0)
+      referent.phones['principal'] = referent.phone
   }
-
-  delete referent.phone;
-  delete referent.__v;
-  delete referent.__user;
-  return referent;
-};
+  delete referent.phone
+  delete referent.__v
+  delete referent.__user
+  return referent
+}
 
 module.exports = mongoose.models.Referent || mongoose.model('Referent', ReferentSchema);

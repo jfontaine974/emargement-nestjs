@@ -374,6 +374,16 @@ describe('========== TEST USERS ==========', () => {
             .getCopy(require('./data/categorie.json'))
             .filter((c) => catsId.filter((id) => id == c._id).length > 0);
 
+          // Supprimer les champs dynamiques pour la comparaison
+          // (createdAt est ajouté par mongoose timestamps, archivedBatchId par defaut du schema)
+          r.forEach((e) => {
+            delete e.createdAt;
+            delete e.archivedBatchId;
+          });
+          cats.forEach((e) => {
+            delete e.createdAt;
+            delete e.archivedBatchId;
+          });
           expect(r).to.deep.equals(cats);
           done();
         });

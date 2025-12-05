@@ -52,11 +52,9 @@ CategorieSchema.query.notDeleted = function() {
 };
 
 CategorieSchema.methods.view = function() {
-  const categorie = this.toObject();
+  let categorie = this.toObject();
   delete categorie.__v;
   delete categorie.__user;
-  delete categorie.createdAt;
-  delete categorie.archivedBatchId;
   return categorie;
 };
 

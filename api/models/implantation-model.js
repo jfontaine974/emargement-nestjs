@@ -22,11 +22,10 @@ const ImplantationSchema = mongoose.Schema({
 }, { strict: "throw", timestamps: true });
 
 ImplantationSchema.methods.view = function() {
-    var implantation = this.toObject();
-    delete implantation.__v;
-    delete implantation.__user;
-    delete implantation.createdAt;
-    return implantation;
+    let Implantation = this.toObject();
+    delete Implantation.__v;
+    delete Implantation.__user;
+    return Implantation;
 };
 
 module.exports = mongoose.model('Implantation', ImplantationSchema);
