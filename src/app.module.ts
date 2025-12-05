@@ -11,9 +11,10 @@ import { TypeActiviteModule } from './modules/type-activite/type-activite.module
 import { TrancheAgeModule } from './modules/tranche-age/tranche-age.module';
 import { PeriodeModule } from './modules/periode/periode.module';
 import { CategoriesModule } from './modules/categories/categories.module';
+import { ReferentsModule } from './modules/referents/referents.module';
 
 @Module({
-  imports: [ConfigModule, SharedModule, UsersModule, ImplantationsModule, TypeAccueilModule, TypeActiviteModule, TrancheAgeModule, PeriodeModule, CategoriesModule],
+  imports: [ConfigModule, SharedModule, UsersModule, ImplantationsModule, TypeAccueilModule, TypeActiviteModule, TrancheAgeModule, PeriodeModule, CategoriesModule, ReferentsModule],
   controllers: [AppController],
   providers: [AppService],
 })

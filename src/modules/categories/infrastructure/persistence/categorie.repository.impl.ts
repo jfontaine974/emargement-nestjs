@@ -168,7 +168,7 @@ export class CategorieRepositoryImpl implements CategorieRepository {
     try {
       const { Schema } = require('mongoose');
       const schema = new Schema({ nom: String }, { collection: 'typeaccueils' });
-      const Model = await this.tenantConnection.getModel('TypeAccueil', schema);
+      const Model = await this.tenantConnection.getModel('TypeAccueil_Validation', schema);
       const doc = await Model.findById(id).exec();
       return !!doc;
     } catch {
@@ -180,7 +180,7 @@ export class CategorieRepositoryImpl implements CategorieRepository {
     try {
       const { Schema } = require('mongoose');
       const schema = new Schema({ nom: String }, { collection: 'trancheages' });
-      const Model = await this.tenantConnection.getModel('TrancheAge', schema);
+      const Model = await this.tenantConnection.getModel('TrancheAge_Validation', schema);
       const doc = await Model.findById(id).exec();
       return !!doc;
     } catch {
@@ -192,7 +192,7 @@ export class CategorieRepositoryImpl implements CategorieRepository {
     try {
       const { Schema } = require('mongoose');
       const schema = new Schema({ nom: String }, { collection: 'implantations' });
-      const Model = await this.tenantConnection.getModel('Implantation', schema);
+      const Model = await this.tenantConnection.getModel('Implantation_Validation', schema);
       const doc = await Model.findById(id).exec();
       return !!doc;
     } catch {
@@ -204,7 +204,7 @@ export class CategorieRepositoryImpl implements CategorieRepository {
     try {
       const { Schema } = require('mongoose');
       const schema = new Schema({ nom: String }, { collection: 'typeactivites' });
-      const Model = await this.tenantConnection.getModel('TypeActivite', schema);
+      const Model = await this.tenantConnection.getModel('TypeActivite_Validation', schema);
       const doc = await Model.findById(id).exec();
       return !!doc;
     } catch {
@@ -216,7 +216,7 @@ export class CategorieRepositoryImpl implements CategorieRepository {
     try {
       const { Schema } = require('mongoose');
       const schema = new Schema({ nom: String }, { collection: 'periodes' });
-      const Model = await this.tenantConnection.getModel('Periode', schema);
+      const Model = await this.tenantConnection.getModel('Periode_Validation', schema);
       const doc = await Model.findById(id).exec();
       return !!doc;
     } catch {

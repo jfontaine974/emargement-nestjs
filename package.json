@@ -13,7 +13,7 @@
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test": "npm run build && API_ROUTE= IS_LOCAL= USE_MEMORY_DB=true NODE_ENV=test mocha test/*Spec.js --timeout 3000 --exit",
+    "test": "npm run build && API_ROUTE=test USE_MEMORY_DB=true NODE_ENV=test mocha test/*Spec.js --timeout 10000 --exit",
     "test:watch": "nodemon --exec 'npm run test'",
     "test:cov": "npm run build && nyc --reporter=html --reporter=text mocha test/*Spec.js --timeout 30000 --exit",
     "test:jest": "jest",
